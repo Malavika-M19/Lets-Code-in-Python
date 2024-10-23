@@ -1,0 +1,13 @@
+#Create a list of 5 random numbers and print the list.
+import random
+l1 = [random.randint(1, 100) for i in range(5)]
+print(l1)
+
+#Insert 3 new values to the list and print the updated list
+new_values=[1,2,3]
+l1.extend(new_values)
+print("Updated list is: ",l1)
+
+#Try to use a for loop to print each element in the list.
+for i in l1:
+    print(i)
