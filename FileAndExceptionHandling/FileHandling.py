@@ -8,17 +8,17 @@ print(file1.read())
 """
 Write a Python program to copy the contents of one file to another file
 """
-# #Reading the contents from first file
-# with open ("EmployeeDetails.txt",'r') as firstFile:
-#     data=firstFile.read()
-#
-# #Creating second file and writing this contents
-# with open("NewEmployeeDetails.txt",'w') as secondFile:
-#     secondFile.write(data)
-#
-# #Read contents of second file
-# secondFile=open("NewEmployeeDetails.txt",'r')
-# print(secondFile.read())
+#Reading the contents from first file
+with open ("EmployeeDetails.txt",'r') as firstFile:
+    data=firstFile.read()
+
+#Creating second file and writing this contents
+with open("NewEmployeeDetails.txt",'w') as secondFile:
+    secondFile.write(data)
+
+#Read contents of second file
+secondFile=open("NewEmployeeDetails.txt",'r')
+print(secondFile.read())
 
 
 """
