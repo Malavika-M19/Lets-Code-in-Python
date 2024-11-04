@@ -2,30 +2,30 @@
 Write a Python program that prompts the user to input a string and converts it to an integer.
 Use try-except blocks to handle any exceptions that might occur
 """
-# userInput=input("Enter a string: ")
-# try:
-#     userInput=int(userInput)
-# except Exception as e:
-#     print("Erorr: ",e)
-# else:
-#     print("The input given by user is converted to integer and the value is: ",userInput)
+userInput=input("Enter a string: ")
+try:
+    userInput=int(userInput)
+except Exception as e:
+    print("Erorr: ",e)
+else:
+    print("The input given by user is converted to integer and the value is: ",userInput)
 
 
 """
 Write a Python program that prompts the user to input a list of integers 
 and raises an exception if any of the integers in the list are negative
 """
-# list1=input("Enter a list of integers: ")
-# try:
-#     numbersList=list1.split()
-#     numbers=[int(i) for i in numbersList]
-#     for i in numbers:
-#         if i<0:
-#             raise Exception
-# except:
-#     print("Error: The list contains negative numbers")
-# else:
-#     print("Thanks for the input.")
+list1=input("Enter a list of integers: ")
+try:
+    numbersList=list1.split()
+    numbers=[int(i) for i in numbersList]
+    for i in numbers:
+        if i<0:
+            raise Exception
+except:
+    print("Error: The list contains negative numbers")
+else:
+    print("Thanks for the input.")
 
 
 """
